@@ -24,4 +24,4 @@ merged_activities <- merge(activities,merged_sets,by="activity")
 
 # 5. Tidy data set with the average of each variable for each activity and each measurement
 agg_by_activity <- aggregate(merged_activities[3:563],list(merged_activities$act_name),mean)
-write.table(agg_by_activity,"tidy_data.txt")
+write.table(agg_by_activity,"tidy_data.txt", row.name=FALSE)
