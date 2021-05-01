@@ -20,6 +20,8 @@ train_activities <- read.table("%path-to-folder%/Original_Dataset/test/y_train.t
 train_measurements <- read.table("%path-to-folder%/Original_Dataset/test/X_train.txt")
 features <- read.table("%path-to-folder%/Original_Dataset/features.txt")
 activities <- read.table("%path-to-folder%/Original_Dataset/activity_labels.txt")
+test_subjects <- read.table("%path-to-folder%/Original_Dataset/test/subject_test.txt")
+train_subjects <- read.table("%path-to-folder%/Original_Dataset/train/subject_train.txt")
 ´´´
 
 # Transformations
